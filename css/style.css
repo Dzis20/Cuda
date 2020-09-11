@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+  }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+    /* border: 1px solid red; */
+    /* height: 595px; */
+}
+.header {
+    background-color: #87509c;
+    min-height: 595px;
+    /* height: 100% */
+    
+}
+
+.header-top {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+    z-index: 3;
+  }
+.header-logo {
+    padding-left: 40px;
+    width: 160px;
+    position: relative;
+    z-index: 2;
+}
+.header-logo img {
+  max-width: 100%
+}
+ul.header-list {
+    list-style: none;
+    /* position: relative; */
+    /* z-index: 2; */
+    display: flex;
+  }
+  
+ul.header-list li {
+    display: inline-block;
+    margin-right: 40px;
+  }
+
+  
+ul.header-list li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: top;
+    height: 35px;
+    /* width: 95px;*/
+    width: 100%;
+    padding: 0 10px;
+    line-height: 2.2;
+  }
+  
+ul.header-list li:hover {
+    background: #643a79;
+    border-radius: 5px;
+  }
+.header-burger {
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+
+  .header-middle {
+    padding-bottom: 0px
+  }
+  .header-middle p {
+    text-align: center;
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 900;
+    margin-bottom: 65px;
+    color: #fff
+  }
+  
+  .header-btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-btn a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    vertical-align: top;
+    background-color: rgb(235, 125, 75);
+    max-width: 293px;
+    height: 65px;
+    line-height: 3.5;
+    font-weight: 700;
+    box-shadow: 0px 4px #c86a40;
+    padding: 0 60px;
+    
+  }
